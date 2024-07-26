@@ -1,0 +1,279 @@
+
+body {
+    font-family: sans-serif;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+    background-color: #EAEBED;
+}
+
+ /* Navbar.css */
+.Navbar {
+    background-color: #2F97C1;
+    color: white;
+    padding: 1em 0;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.Navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.Navbar h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.Navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.Navbar ul li {
+    margin: 0 15px;
+}
+
+.Navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.Navbar ul li a:hover {
+    color: #ffeb3b;
+}
+
+
+/* Hero.css */
+.hero {
+    /* background-color: white; */
+    color: #333;
+    padding: 50px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.hero-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    /* background: white; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.Greeting {
+    font-size: 1.5em;
+    margin: 0;
+    color: #2F97C1;
+}
+
+.web-name {
+    font-size: 2.5em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.name {
+    font-size: 1.2em;
+    margin: 20px 0 0;
+    color: #555;
+}
+
+/* About.css */
+.about {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    /* background-color: white; */
+    width: 100%;
+}
+
+.about-container {
+    flex: 2;
+    padding: 20px;
+    /* background: white; */
+    margin-left: 20px;
+}
+
+.about-container h2 {
+    font-size: 2em;
+    color:#2F97C1;
+    margin-bottom: 20px;
+}
+
+.about-container p {
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Skills.css */
+#skills {
+    padding: 50px 0;
+    /* background-color: white; */
+    text-align: center;
+    width: 100%;
+}
+
+.my-skills {
+    font-size: 2.5em;
+    color: #2F97C1;
+    margin-bottom: 30px;
+    
+}
+
+#skills div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#skills div > div {
+    /* background-color: white; */
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin: 10px;
+    font-size: 1.2em;
+    color: #333;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#skills div > div:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Projects.css */
+#projects {
+    padding: 50px 0;
+    /* background-color: white; */
+    text-align: center;
+    width: 100%;
+}
+
+.my-projects {
+    font-size: 2.5em;
+    color: #2F97C1;
+    margin-bottom: 30px;
+}
+
+.project-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.project-img > div {
+    margin: 20px;
+}
+
+.project-img img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-img img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-path {
+    text-align: left;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.project-path h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.project-path h2 a {
+    color: #2F97C1;
+    text-decoration: none;
+}
+
+.project-path h2 a:hover {
+    text-decoration: underline;
+}
+
+.project-path p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+/* Contact.css */
+#contact {
+    padding: 50px 0;
+    /* background-color: white; */
+    text-align: center;
+    width: 100%;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #2F97C1;
+}
+
+.contact-id {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-id a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 10px 0;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.contact-id a i {
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
+.contact-id a:hover {
+    color: #2F97C1;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+/* Footer.css */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding:  0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.font-bold {
+    font-weight: bold;
+}
